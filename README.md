@@ -84,8 +84,29 @@ chmod a+x ~/bin/repo
 ```shell
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+git lfs install
+git config --global trailer.changeid.key "Change-Id"
 ```
 
 > [!IMPORTANT]
 > * Там где *you@example.com* укажите адрес своей электронной почты
 > * Там где *Your Name* ваш ник
+
+## Настройка переменных окружения
+
+```shell
+export USE_CCACHE=1
+export CCACHE_EXEC=/usr/bin/ccache
+```
+
+Далее выполните эту команду:
+
+```shell
+nano ~/.bashrc
+```
+
+Вставьте в файле (или замените) данный параметр:
+
+```shell
+ccache -M 50G
+```
