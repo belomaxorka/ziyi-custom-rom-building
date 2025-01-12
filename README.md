@@ -105,7 +105,7 @@ export CCACHE_EXEC=/usr/bin/ccache
 nano ~/.bashrc
 ```
 
-Вставьте в файле (или замените) данный параметр:
+Добавляем в самый конец файла:
 
 ```shell
 # ccache size
