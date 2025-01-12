@@ -112,3 +112,27 @@ ccache -M 50G
 ```
 
 # Инициализация репозитория / загрузка исходного кода
+
+> [!NOTE]
+> * Актуальные команды всегда можно найти в manifest-репозитории вашей прошивки.
+> * В нашем случае это [EvolutionX Manifest](https://github.com/Evolution-X/manifest)
+
+## Выбираем ранее созданную нами папку android
+
+```shell
+cd ~/android
+```
+
+## Инициализируем репозиторий
+
+В нашем случае это EvolutionX.
+
+```shell
+repo init -u https://github.com/Evolution-X/manifest -b vic --git-lfs
+```
+
+## Выкачиваем исходный код прошивки
+
+```shell
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```
