@@ -1,6 +1,6 @@
 # Xiaomi 13 Lite (ziyi) инструкция по сборке прошивки
 
-В данном руководстве мы собирем прошивку EvolutionX.
+В данном руководстве мы собирем прошивку EvolutionX A15.
 
 ## Полезные ссылки
 
@@ -155,4 +155,10 @@ cd ~/android
 
 ```shell
 git clone https://github.com/cupid-development/android_device_xiaomi_ziyi.git -b lineage-22.1 --depth 1 device/xiaomi/ziyi
+```
+
+## Добавление ядра
+
+```shell
+git clone https://github.com/Evolution-X-Devices/kernel_xiaomi_sm8450.git -b lineage-22.1 --depth 1
 ```
