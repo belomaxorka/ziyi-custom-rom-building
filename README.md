@@ -136,3 +136,8 @@ repo init -u https://github.com/Evolution-X/manifest -b vic --git-lfs
 ```shell
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
+
+> [!IMPORTANT]
+> * Данный процесс может занять около 1-2 часов, зависит от скорости вашего интернета
+> * В случае появления ошибок, не беспокойтесь, по окончанию процесса сделайте езё раз синхронизацию, и он докачает
+    нужные файлы
