@@ -162,3 +162,15 @@ git clone https://github.com/cupid-development/android_device_xiaomi_ziyi.git -b
 ```shell
 git clone https://github.com/Evolution-X-Devices/kernel_xiaomi_sm8450.git -b vic --depth 1 kernel/xiaomi/sm8450
 ```
+
+## Добавление Device Common
+
+```shell
+git clone https://github.com/Evolution-X-Devices/device_xiaomi_sm8450-common.git -b vic --depth 1 device/xiaomi/sm8450-common
+```
+
+## Добавление Vendor Common
+
+```shell
+git clone https://github.com/Evolution-X-Devices/vendor_xiaomi_sm8450-common.git -b vic --depth 1 vendor/xiaomi/sm8450-common
+```
