@@ -147,6 +147,9 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 ## Выбираем каталог
 
+> [!NOTE]
+> Если какой-то репозиторий клонируется с ошибкой, то пробуйте ещё раз
+
 ```shell
 cd ~/android
 ```
