@@ -87,5 +87,5 @@ git config --global user.name "Your Name"
 ```
 
 > [!IMPORTANT]
-> Там где you@example.com укажите адрес своей электронной почты
-> Там где Your Name ваш ник
+> * Там где *you@example.com* укажите адрес своей электронной почты
+> * Там где *Your Name* ваш ник
