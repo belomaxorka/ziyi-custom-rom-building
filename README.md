@@ -180,3 +180,9 @@ git clone https://github.com/Evolution-X-Devices/vendor_xiaomi_sm8450-common.git
 ```shell
 git clone https://git.mainlining.org/cupid-development/proprietary_vendor_xiaomi_ziyi.git -b lineage-22.1 --depth 1 vendor/xiaomi/ziyi
 ```
+
+## Добавление Hardware
+
+```shell
+git clone https://github.com/Evolution-X-Devices/hardware_xiaomi.git -b vic --depth 1 hardware/xiaomi
+```
