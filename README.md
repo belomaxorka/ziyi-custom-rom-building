@@ -19,7 +19,7 @@
 * Желательно стабильное подключение к интернету
 * Самое главное: терпение и стальные нервы
 
-# Подготовка среды окружения
+# Подготовка
 
 ## Установка / обновление пакетов
 
@@ -42,7 +42,6 @@ unzip platform-tools-latest-linux.zip -d ~
 ### Добавление platform-tools в среду окружения
 
 ```shell
-cd ~/
 nano ~/.profile
 ```
 
@@ -60,15 +59,33 @@ fi
 > * Чтобы сохранить нажмите Ctrl+O и Enter
 > * Чтобы выйти Ctrl+X
 
-## Создание необходимых каталогов
-
 После выхода, выполните данную комманду (она обновляет настройки среды окружения):
 
 ```shell
 source ~/.profile
 ```
 
+## Создание необходимых каталогов
+
 ```shell
-mkdir ~/android
-cd ~/android
+mkdir -p ~/bin
+mkdir -p ~/android
 ```
+
+## Установка утилиты repo
+
+```shell
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+chmod a+x ~/bin/repo
+```
+
+## Настройка Git
+
+```shell
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
+> [!IMPORTANT]
+> Там где you@example.com укажите адрес своей электронной почты
+> Там где Your Name ваш ник
