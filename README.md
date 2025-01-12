@@ -160,5 +160,5 @@ git clone https://github.com/cupid-development/android_device_xiaomi_ziyi.git -b
 ## Добавление ядра
 
 ```shell
-git clone https://github.com/Evolution-X-Devices/kernel_xiaomi_sm8450.git -b lineage-22.1 --depth 1
+git clone https://github.com/Evolution-X-Devices/kernel_xiaomi_sm8450.git -b vic --depth 1 kernel/xiaomi/sm8450
 ```
