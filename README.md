@@ -108,6 +108,7 @@ nano ~/.bashrc
 Вставьте в файле (или замените) данный параметр:
 
 ```shell
+# ccache size
 ccache -M 50G
 ```
 
