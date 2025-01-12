@@ -190,3 +190,29 @@ git clone https://git.mainlining.org/cupid-development/proprietary_vendor_xiaomi
 ```shell
 git clone https://github.com/Evolution-X-Devices/hardware_xiaomi.git -b vic --depth 1 hardware/xiaomi
 ```
+
+# Сборка прошивки
+
+## Выбираем каталог
+
+```shell
+cd ~/android
+```
+
+## Инициализируем среду окружения
+
+```shell
+. build/envsetup.sh
+```
+
+## Указываем под какое устройство будет сборка
+
+```shell
+lunch lineage_ziyi-ap4a-userdebug
+```
+
+## Начинаем...
+
+```shell
+m evolution
+```
