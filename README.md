@@ -216,3 +216,7 @@ lunch lineage_ziyi-ap4a-userdebug
 ```shell
 m evolution
 ```
+
+> [!NOTE]
+> * Примерное время сборки 3-4 часа, зависит от мощности вашего компьютера
+> * В случае появления warning, deprecated или notice ошибок, не беспокойтесь, это нормально
