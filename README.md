@@ -82,6 +82,7 @@ chmod a+x ~/bin/repo
 ## Настройка Git
 
 ```shell
+export GIT_CURL_VERBOSE=1
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 git lfs install
