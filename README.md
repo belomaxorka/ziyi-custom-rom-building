@@ -142,3 +142,17 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 > * В случае появления ошибок, не беспокойтесь, по окончанию процесса сделайте езё раз синхронизацию, и он докачает
     нужные файлы
 > * В случае успешной синхронизации, в консоли будет надпись: **repo sync has finished successfully.**
+
+# Добавление device-side репозиториев
+
+## Выбираем каталог
+
+```shell
+cd ~/android
+```
+
+## Добавление device tree (дерево устройства)
+
+```shell
+git clone https://github.com/cupid-development/android_device_xiaomi_ziyi.git -b lineage-22.1 --depth 1 device/xiaomi/ziyi
+```
