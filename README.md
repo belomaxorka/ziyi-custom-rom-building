@@ -1,6 +1,6 @@
 # Xiaomi 13 Lite (ziyi) инструкция по сборке прошивки
 
-![EvolutionX](Banner.png)
+![Xiaomi 13 Lite](banner.webp)
 
 В данном руководстве мы собирем прошивку EvolutionX A15.
 
