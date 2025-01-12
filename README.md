@@ -82,7 +82,6 @@ export PATH="~/bin:$PATH"
 ## Настройка Git
 
 ```shell
-export GIT_CURL_VERBOSE=1
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 git lfs install
@@ -91,7 +90,7 @@ git config --global trailer.changeid.key "Change-Id"
 
 > [!IMPORTANT]
 > * Там где **you@example.com** укажите адрес своей электронной почты
-> * Там где **Your Name** ваш ник
+> * Там где **Your Name** ваше имя
 
 ## Настройка переменных окружения
 
