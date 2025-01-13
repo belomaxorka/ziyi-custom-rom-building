@@ -175,7 +175,7 @@ git clone https://github.com/cupid-development/android_device_xiaomi_sm8450-comm
 ## Добавление Vendor Common
 
 ```shell
-git clone https://github.com/Evolution-X-Devices/vendor_xiaomi_sm8450-common.git -b vic --depth 1 vendor/xiaomi/sm8450-common
+git clone https://git.mainlining.org/cupid-development/proprietary_vendor_xiaomi_sm8450-common.git -b lineage-22.1 --depth 1 vendor/xiaomi/sm8450-common
 ```
 
 ## Добавление Proprietary Vendor (вендор устройства)
@@ -187,7 +187,7 @@ git clone https://git.mainlining.org/cupid-development/proprietary_vendor_xiaomi
 ## Добавление Hardware
 
 ```shell
-git clone https://github.com/Evolution-X-Devices/hardware_xiaomi.git -b vic --depth 1 hardware/xiaomi
+git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-22.1 --depth 1 hardware/xiaomi
 ```
 
 # Сборка прошивки 📦
