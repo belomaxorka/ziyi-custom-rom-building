@@ -129,13 +129,13 @@ cd ~/android
 В нашем случае это crDroid.
 
 ```shell
-repo init -u https://github.com/Evolution-X/manifest -b vic --git-lfs
+repo init -u https://github.com/crdroidandroid/android.git -b 15.0 --git-lfs
 ```
 
 ## Выкачиваем исходный код прошивки
 
 ```shell
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync
 ```
 
 > [!IMPORTANT]
@@ -205,16 +205,10 @@ cd ~/android
 . build/envsetup.sh
 ```
 
-## Указываем под какое устройство будет сборка
-
-```shell
-lunch lineage_ziyi-ap4a-userdebug
-```
-
 ## Начинаем...
 
 ```shell
-m evolution
+brunch ziyi
 ```
 
 > [!NOTE]
