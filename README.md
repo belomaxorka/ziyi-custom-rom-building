@@ -6,12 +6,12 @@
 
 # Полезные ссылки 📌
 
-| EvolutionX                                                                                                                                                                              | LineageOS                                                                                                                                                                                                 |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Device tree](https://github.com/cupid-development/android_device_xiaomi_ziyi) · [Device Common](https://github.com/Evolution-X-Devices/device_xiaomi_sm8450-common)                    | [Device tree](https://github.com/cupid-development/android_device_xiaomi_ziyi) · [Device Common](https://github.com/cupid-development/android_device_xiaomi_sm8450-common)                                |
-| [Kernel](https://github.com/Evolution-X-Devices/kernel_xiaomi_sm8450)                                                                                                                   | [Kernel](https://github.com/cupid-development/android_kernel_xiaomi_sm8450)                                                                                                                               |
-| [Vendor Common](https://github.com/Evolution-X-Devices/vendor_xiaomi_sm8450-common) · [Proprietary Vendor](https://git.mainlining.org/cupid-development/proprietary_vendor_xiaomi_ziyi) | [Vendor Common](https://git.mainlining.org/cupid-development/proprietary_vendor_xiaomi_sm8450-common) · [Proprietary Vendor](https://git.mainlining.org/cupid-development/proprietary_vendor_xiaomi_ziyi) |
-| [Hardware](https://github.com/Evolution-X-Devices/hardware_xiaomi)                                                                                                                      | [Hardware](https://github.com/LineageOS/android_hardware_xiaomi)                                                                                                                                          |
+| LineageOS                                                                                                                                                                                                 |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Device tree](https://github.com/cupid-development/android_device_xiaomi_ziyi) · [Device Common](https://github.com/cupid-development/android_device_xiaomi_sm8450-common)                                |
+| [Kernel](https://github.com/cupid-development/android_kernel_xiaomi_sm8450)                                                                                                                               |
+| [Vendor Common](https://git.mainlining.org/cupid-development/proprietary_vendor_xiaomi_sm8450-common) · [Proprietary Vendor](https://git.mainlining.org/cupid-development/proprietary_vendor_xiaomi_ziyi) |
+| [Hardware](https://github.com/LineageOS/android_hardware_xiaomi)                                                                                                                                          |
 
 # Системные требования 💻
 
