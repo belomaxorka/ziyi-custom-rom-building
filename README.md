@@ -26,6 +26,7 @@
 ```shell
 sudo apt update && sudo apt upgrade
 ```
+
 ```shell
 sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-gtk3-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip unzip zlib1g-dev
 ```
@@ -37,9 +38,11 @@ sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-mult
 ```shell
 cd ~/
 ```
+
 ```shell
 wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip
 ```
+
 ```shell
 unzip platform-tools-latest-linux.zip -d ~
 ```
@@ -74,6 +77,9 @@ source ~/.profile
 
 ```shell
 mkdir -p ~/bin
+```
+
+```shell
 mkdir -p ~/android/lineage
 ```
 
@@ -81,7 +87,13 @@ mkdir -p ~/android/lineage
 
 ```shell
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+```
+
+```shell
 chmod a+x ~/bin/repo
+```
+
+```shell
 export PATH="~/bin:$PATH"
 ```
 
@@ -89,8 +101,17 @@ export PATH="~/bin:$PATH"
 
 ```shell
 git config --global user.email "you@example.com"
+```
+
+```shell
 git config --global user.name "Your Name"
+```
+
+```shell
 git lfs install
+```
+
+```shell
 git config --global trailer.changeid.key "Change-Id"
 ```
 
@@ -102,6 +123,8 @@ git config --global trailer.changeid.key "Change-Id"
 
 ```shell
 export USE_CCACHE=1
+```
+```shell
 export CCACHE_EXEC=/usr/bin/ccache
 ```
 
