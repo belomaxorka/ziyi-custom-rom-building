@@ -124,6 +124,7 @@ git config --global trailer.changeid.key "Change-Id"
 ```shell
 export USE_CCACHE=1
 ```
+
 ```shell
 export CCACHE_EXEC=/usr/bin/ccache
 ```
@@ -236,7 +237,11 @@ source build/envsetup.sh
 ## Начинаем...
 
 ```shell
-breakfast ziyi
+croot
+```
+
+```shell
+brunch ziyi
 ```
 
 > [!NOTE]
