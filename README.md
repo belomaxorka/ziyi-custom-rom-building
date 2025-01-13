@@ -158,7 +158,7 @@ cd ~/android/lineage
 В нашем случае это LineageOS.
 
 ```shell
-repo init -u https://github.com/LineageOS/android.git -b lineage-22.1 --git-lfs
+repo init -u https://github.com/LineageOS/android.git -b lineage-22.1 --git-lfs --no-clone-bundle
 ```
 
 ## Выкачиваем исходный код прошивки
