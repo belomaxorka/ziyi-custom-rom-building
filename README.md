@@ -116,7 +116,7 @@ ccache -M 50G
 
 > [!NOTE]
 > * Актуальные команды всегда можно найти в manifest-репозитории вашей прошивки.
-> * В нашем случае это [crDroid Manifest](https://github.com/Evolution-X/manifest)
+> * В нашем случае это [crDroid Manifest](https://github.com/crdroidandroid/android)
 
 ## Выбираем каталог
 
@@ -126,7 +126,7 @@ cd ~/android
 
 ## Инициализируем репозиторий
 
-В нашем случае это EvolutionX.
+В нашем случае это crDroid.
 
 ```shell
 repo init -u https://github.com/Evolution-X/manifest -b vic --git-lfs
