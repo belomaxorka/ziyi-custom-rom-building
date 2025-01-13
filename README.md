@@ -68,7 +68,7 @@ source ~/.profile
 
 ```shell
 mkdir -p ~/bin
-mkdir -p ~/android
+mkdir -p ~/android/lineage
 ```
 
 ## Установка утилиты repo
@@ -120,15 +120,15 @@ ccache -M 50G
 ## Выбираем каталог
 
 ```shell
-cd ~/android
+cd ~/android/lineage
 ```
 
 ## Инициализируем репозиторий
 
-В нашем случае это crDroid.
+В нашем случае это LineageOS.
 
 ```shell
-repo init -u https://github.com/crdroidandroid/android.git -b 15.0 --git-lfs
+repo init -u https://github.com/LineageOS/android.git -b lineage-22.1 --git-lfs
 ```
 
 ## Выкачиваем исходный код прошивки
@@ -151,7 +151,7 @@ repo sync
 ## Выбираем каталог
 
 ```shell
-cd ~/android
+cd ~/android/lineage
 ```
 
 ## Добавление device tree (дерево устройства)
@@ -195,19 +195,19 @@ git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-22
 ## Выбираем каталог
 
 ```shell
-cd ~/android
+cd ~/android/lineage
 ```
 
 ## Инициализируем среду окружения для сборки прошивки
 
 ```shell
-. build/envsetup.sh
+source build/envsetup.sh
 ```
 
 ## Начинаем...
 
 ```shell
-brunch ziyi
+breakfast ziyi
 ```
 
 > [!NOTE]
