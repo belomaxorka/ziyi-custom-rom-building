@@ -233,6 +233,10 @@ cd ~/android/lineage
 source build/envsetup.sh
 ```
 
+```shell
+breakfast ziyi
+```
+
 ## Начинаем...
 
 ```shell
